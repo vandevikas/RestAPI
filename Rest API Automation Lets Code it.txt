@@ -1,0 +1,149 @@
+====================================================================================================================================================
+Java JDK path to set in Environment Variables: is till bin folder
+C:\Program Files\Java\jdk1.8.0_161\bin
+
+====================================================================================================================================================
+Front End or Client Side of the Application:	Business Logic Layer			Server
+Web/iOS/Android									REST API						All info like userName, password etc
+
+So Rest API is the business logic layer and used for connection between front end and server.
+Benefit of REST API is that front end language could by anythink like Swift, Java, React but they all can use same REST API. 
+It has many methods but mainly used ones are POST, GET, PUT, DELETE.
+
+REST API uses HTTP/HTTPS to connect to the Server.
+Front end uses JSON/XML to connect to REST API -> known as payload or parameters. (JavaScript Object Notation -> Easy)
+So No programming language boundation.
+
+The facebook and Google options available on other websites for login are possible as Google and facebook has provided there login API to these websites, anyone can use these.
+====================================================================================================================================================
+
+REST REpresentation State Transfer
+API Application Programming Interface -> Can be of several types.
+====================================================================================================================================================
+
+Request -> we request to server like userName and password
+Response -> what we receive, Whether we are successfully got login or not.
+
+As we already talked front end talks in JSON/XML to the REST API.
+
+REST is stateless i.e Client data not stored on server and session data stored on client.
+
+REST API can be written in any language and user of any language can use/consume it.
+====================================================================================================================================================
+
+Endpoint:
+
+3 things are needed to connect to a server:
+1. URI			-> Unique Resource Identifier, think it as URL of a website. like macys.com, i.e it projects to a specific server. 
+2. Resources	-> specific page on URI like URI/men (macys.com/men) 
+3. Parameters	-> data to filter the resources i.e how the page should appear.
+
+baseURI/resourcePath?parameters
+
+Server needs to be connected.
+(There can be many URI for a single website like macys.com could have macys1.com -> now we can have 2 different servers)
+====================================================================================================================================================
+
+GET -> Read 		i.e. reading the website
+POST -> Create		i.e. when we send userName and Password fro login
+PUT -> Update		i.e. Modifying existing information
+DELETE -> DELETE
+====================================================================================================================================================
+
+Headers tab in Network option of the Developer tools contains:
+	1. Request URL
+	2. Request method
+	3. Status Code: Response from the server i.e. weather page load was successful or not
+====================================================================================================================================================
+
+JSON format:
+it is a key value pair separated by : like:
+"key":"value"
+it starts with {
+
+lightweight, Less Verbose - compact style than XML - more readable, Faster, Readable
+XML can also be used for same purposes
+====================================================================================================================================================
+
+Postman REST Client is an extention to chrome browser
+Advanced Rest Client is also an chrome extention, it is just like Postman
+RESTClient and REST Easy are Firefox extentions just like chrome extentions.
+
+In my project I can use above clients for my testing as I can not hit the browser with the testing URLs but now I can hit the testing urls in Postman 
+====================================================================================================================================================
+
+In Rest testing we use Status code (like 200 OK etc), response message for our testing.
+====================================================================================================================================================
+
+In my office framework - How Rest is implemented
+====================================================================================================================================================
+
+Website containing status codes in detail.
+https://httpstatuses.com/ 
+====================================================================================================================================================
+
+Rest API is kind of Web Services
+====================================================================================================================================================
+
+For POST you need a Endpoint URI (endPointURL) and data to post (either in JSON or XML format)
+So in Postman client you select Post method and put the endPointURL
+then you click on Body tab and click raw radio button and select JSON as the data format (Payload).
+And click on Send.
+====================================================================================================================================================
+
+Get and Post are mostly used. Get is to see the data and Post is to send the data (which can be to update, delete etc.)
+====================================================================================================================================================
+
+In Rest API we use WADL structure i.e Web Application Description Language in which we have a common structure for writing API's.
+====================================================================================================================================================
+
+Rest Assured is an API in Java for simplifing automation of Rest Services using Java language. Use to validate response of RestAPI requests.
+====================================================================================================================================================
+
+API is set of code which can be used anywhere, a single method can also be a API as you call this method to use it.
+====================================================================================================================================================
+
+Rest Assured Framework:
+	1. Maven
+	2. TestNG
+	3. Java
+	4. RestAssured Jars (http://rest-assured.io/)
+	
+	
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+====================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
